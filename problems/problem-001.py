@@ -3,7 +3,7 @@ def run():
     we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all
     the multiples of 3 or 5 below 1000.
     '''
-    return sum([num if num % 3 == 0 or num % 5 == 0 else 0 for num in range(1, 1000)])
+    print(sum([num if num % 3 == 0 or num % 5 == 0 else 0 for num in range(1, 1000)]))
 
 if __name__ == "__main__":
     run()
